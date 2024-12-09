@@ -36,7 +36,7 @@ export default function AsgaardSofa() {
               alt="product"
               width={900}
               height={900}
-              className="max-w-full md:w-[1600px] h-[500px]"
+              className="w-full h-auto md:w-[1600px] "
             />
           </div>
 
