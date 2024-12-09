@@ -44,6 +44,7 @@ export default function Checkout() {
             <option value="United States">United States</option>
             <option value="Canada">Canada</option>
             <option value="Australia">Australia</option>
+            <option value="Pakistan">Pakistan</option>
             <option value="United Kingdom">United Kingdom</option>
             <option value="Germany">Germany</option>
             <option value="India">India</option>
@@ -65,6 +66,7 @@ export default function Checkout() {
             {/* Province options */}
             <option value="United States">United States</option>
             <option value="Canada">Canada</option>
+            <option value="Pakistan">Pakistan</option>
             <option value="Australia">Australia</option>
             <option value="United Kingdom">United Kingdom</option>
             <option value="Germany">Germany</option>

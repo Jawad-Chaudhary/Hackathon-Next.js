@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Navbar() {
   return (
     <nav className="flex flex-col bg-white">
@@ -18,10 +20,10 @@ export default function Navbar() {
             <nav>
               <ul className="flex flex-col gap-y-3 md:gap-y-7 font-medium text-sm md:text-base">
                 <li className="text-[#9F9F9F]">Links</li>
-                <li>Home</li>
-                <li>Shop</li>
-                <li>About</li>
-                <li>Contact</li>
+                <li className="cursor-pointer transition-all duration-200 hover:scale-105 active:opacity-85"><Link href={'/'}>Home</Link></li>
+                <li className="cursor-pointer transition-all duration-200 hover:scale-105 active:opacity-85"><Link href={'/shop'}>Shop</Link></li>
+                <li className="cursor-pointer transition-all duration-200 hover:scale-105 active:opacity-85"><Link href={'/'}>About</Link></li>
+                <li className="cursor-pointer transition-all duration-200 hover:scale-105 active:opacity-85"><Link href={'/contact'}>Contact</Link></li>
               </ul>
             </nav>
             <ul className="flex flex-col gap-y-3 md:gap-y-7 font-medium text-sm md:text-base">

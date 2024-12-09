@@ -21,14 +21,14 @@ export default function Cart() {
       </div>
       </main>
       <main className="flex flex-col md:flex-row justify-between gap-10 px-6 md:px-28 py-12">
-        <div className="w-full md:w-[70%]">
-          <div className="bg-[#FFF9E5] w-full flex justify-evenly font-semibold py-3">
+        <div className="w-full flex md:flex-col justify-between md:justify-normal flex-row  md:w-[70%]">
+          <div className="bg-[#FFF9E5] w-36 text-center  md:w-full flex gap-y-9 md:flex-row flex-col justify-evenly font-semibold py-3">
             <h3>Product</h3>
             <h3>Price</h3>
             <h3>Quantity</h3>
             <h3>Subtotal</h3>
           </div>
-          <div className="flex justify-between items-center font-medium mt-10 text-sm text-gray-400">
+          <div className="flex md:flex-row flex-col gap-y-9 justify-between items-center font-medium mt-10 text-sm text-gray-400">
               <Image
                 src={'/shop/item14.png'}
                 alt="sofa"
